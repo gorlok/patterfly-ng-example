@@ -1,4 +1,4 @@
-# patterfly-ng-example
+# patternfly-ng-example
 
 Examples of Patternfly-ng with Angular 7.
 
