@@ -1,0 +1,6 @@
+<pfng-card [config]="config"
+          (onActionSelect)="handleActionSelect($event)"
+          (onFilterSelect)="handleFilterSelect($event)">
+  
+          <pfng-sparkline-chart [config]="chartConfig" [chartData]="chartData" ></pfng-sparkline-chart>
+</pfng-card>

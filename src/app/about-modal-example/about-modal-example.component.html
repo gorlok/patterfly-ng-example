@@ -1,0 +1,19 @@
+<div class="padding-15">
+  <div class="row">
+    <div class="col-sm-12">
+      <h4>About Modal Component Example</h4>
+      <hr/>
+    </div>
+    <div class="col-sm-12">
+      <button (click)="openModal(aboutTemplate)" class="btn btn-default">Launch About Modal</button>
+      <ng-template #aboutTemplate>
+        <pfng-about-modal [config]="aboutConfig"
+                          (onCancel)="closeModal($event)">
+          <div>
+            Custom Content
+          </div>
+        </pfng-about-modal>
+      </ng-template>
+    </div>
+  </div>
+</div>
