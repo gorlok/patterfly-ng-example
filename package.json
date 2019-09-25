@@ -23,7 +23,7 @@
     "jquery": "^3.4.1",
     "js-yaml": "^3.13.1",
     "patternfly": "^3.59.4",
-    "patternfly-ng": "^4.5.1",
+    "patternfly-ng": "^4.5.2",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
     "zone.js": "~0.8.26"
